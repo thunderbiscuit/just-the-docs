@@ -4,7 +4,11 @@
 
 .side-bar {
   z-index: 0;
-  display: flex;
+  
+  // kotlin-study fork customization
+  // display: flex;
+  display: none;
+
   flex-wrap: wrap;
   background-color: $sidebar-color;
 
