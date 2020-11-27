@@ -20,11 +20,19 @@
     flex-direction: column;
     border-right: $border $border-color;
     align-items: flex-end;
+
+    // kotlin-study fork customization
+    // display: flex;
+    display: none;
   }
 
   @include mq(lg) {
     width: calc((100% - #{$nav-width + $content-width}) / 2 + #{$nav-width});
     min-width: $nav-width;
+    
+    // kotlin-study fork customization
+    // display: flex;
+    display: none;
   }
 }
 
