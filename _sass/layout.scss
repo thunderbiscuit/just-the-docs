@@ -40,13 +40,19 @@
   @include mq(md) {
     position: relative;
     max-width: $content-width;
-    margin-left: $nav-width-md;
+
+    // kotlin-study fork customization
+    // margin-left: $nav-width-md;
+    margin: auto;
   }
 
   @include mq(lg) {
-    margin-left: calc(
-      (100% - #{$nav-width + $content-width}) / 2 + #{$nav-width}
-    );
+    // kotlin-study fork customization
+    // margin-left: calc(
+    //   (100% - #{$nav-width + $content-width}) / 2 + #{$nav-width}
+    // );
+    max-width: 1216px;
+    margin: auto;
   }
 }
 
